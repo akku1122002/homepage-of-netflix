@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: url("https://via.placeholder.com/1920x1080") center center/cover
+    no-repeat;
+  position: relative;
+  top: 60px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #f40612;
+}
+
+.movie-section {
+  padding: 20px;
+  position: relative;
+  top: 60px;
+}
+
+.movie-section h2 {
+  margin-bottom: 20px;
+}
+
+.movies {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.movie {
+  min-width: 150px;
+  flex: 0 0 auto;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 5px;
+}
